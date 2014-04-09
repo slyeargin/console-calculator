@@ -82,6 +82,14 @@ function squareRoot(x){
   return Math.sqrt(x);
 }
 function factorial(x) {
+  if (x < 1) {
+  return 1;
+} else {
+  return x * factorial(x-1);
+}
+}
+
+function oldFactorial(x) {
   for (var i = x; i > 0 ; i--) {
     var num = x;
     num = num * i;
