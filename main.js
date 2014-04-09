@@ -6,35 +6,47 @@ while (problem !== 'q') {
   case 'a':
     var x = prompt('Enter your first value.');
     var y = prompt('Enter your second value.');
+    x = parseInt(x);
+    y = parseInt(y);
     var a = add(x,y);
     console.log("The sum of " + x + " and " + y + " is " + a + ".");
     break;
   case 's':
     var x = prompt('Enter your first value.');
     var y = prompt('Enter your second value.');
+    x = parseInt(x);
+    y = parseInt(y);
     var s = subtract(x,y);
     console.log("The difference of " + x + " and " + y + " is " + s + ".");
   case 'm':
     var x = prompt('Enter your first value.');
     var y = prompt('Enter your second value.');
+    x = parseInt(x);
+    y = parseInt(y);
     var m = multiply(x,y);
     console.log("The product of " + x + " and " + y + " is " + m + ".");
   case 'd':
     var x = prompt('Enter your first value.');
     var y = prompt('Enter your second value.');
+    x = parseInt(x);
+    y = parseInt(y);
     var d = divide(x,y);
     console.log("The dividend of " + x + " and " + y + " is " + d + ".");
   case 'p':
     var x = prompt('Enter your first value.');
     var y = prompt('Enter your second value.');
+    x = parseInt(x);
+    y = parseInt(y);
     var p = exponent(x,y);
     console.log(x + " to the power of " + y + " is " + p + ".");
   case 'r':
     var x = prompt('Enter your value.');
+    x = parseInt(x);
     var r = squareRoot(x);
     console.log("The square root of " + x + " is " + r + ".");
   case 'f':
     var x = prompt('Enter your value.');
+    x = parseInt(x);
     var f = factorial(x);
     console.log("The factorial of " + x + " is " + f + ".");
   default:
