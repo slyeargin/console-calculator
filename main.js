@@ -1,7 +1,7 @@
 var problem = prompt('What would you like to do?  (A)dd, (s)ubtract, (m)ultiply, (d)ivide, (p)ower, (r)oot, (f)actorial, or (q)uit the calculator?')
 problem = problem.toLowerCase();
 
-while (problem !== q) {
+while (problem !== 'q') {
   switch(problem) {
   case 'a':
     var x = prompt('Enter your first value.');
