@@ -63,6 +63,8 @@ while (problem !== 'q') {
   problem = problem.toLowerCase();
 }
 
+console.log('Thanks for using my calculator!')
+
 function add(x,y) {
   return x + y;
 }
